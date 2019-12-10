@@ -1,4 +1,4 @@
-package com.apploidxxx.parse;
+package com.apploidxxx.generation;
 
 import java.io.IOException;
 
