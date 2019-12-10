@@ -13,6 +13,14 @@ Used Maven dependency:
 </dependency>
 ```
 
+## Examples
+| Example | File |
+|:-------| :--: |
+|Parsing class from bytecode file|[ClassParserExample](src/main/java/com/apploidxxx/parse/ClassParserExample.java)|
+|Generating a bytecode with BCEL `ClassGen`|[GeneratingHelloWorldBytecode](src/main/java/com/apploidxxx/generation/GeneratingHelloWorldBytecode.java)|
+|Disassembling bytecode to Jasmin assemble language for JVM|[JasminVisitorAcceptingExample](src/main/java/com/apploidxxx/classvisitor/JasminVisitorAcceptingExample.java)|
+|Using pattern Visitor for JavaClass|[SimpleVisitAcceptingExample](src/main/java/com/apploidxxx/classvisitor/SimpleVisitAcceptingExample.java)|
+
 ## About BCEL
 
 The Byte Code Engineering Library (Apache Commons BCEL™) is intended to give users a convenient way to analyze, create, and manipulate (binary) Java class files (those ending with .class). Classes are represented by objects which contain all the symbolic information of the given class: methods, fields and byte code instructions, in particular.
