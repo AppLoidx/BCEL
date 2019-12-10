@@ -1,8 +1,6 @@
 # Apache Commons BCEL
 >analyze, create, and manipulate Java class files
 
-Used Maven dependency:
-
 *pom.xml*
 
 ```xml
